@@ -10,7 +10,7 @@ def validate(test_mac: str, ise_api_creds: str):
     Returns boolean,endpoint_id
     """
 
-    url = "https://cise520lpi3.milwaukeecountywi.gov/ers/config/endpoint"
+    url = "https://ISE-URL-GOES-HERE/ers/config/endpoint"
 
     headers = {
         "Content-Type": "application/json",
