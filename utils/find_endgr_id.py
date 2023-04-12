@@ -7,7 +7,7 @@ def find_endgr_id(ise_api_creds: str, search_string: str):
     This function finds and returns an ISE ID Group based on the name provided search_string.
     """
 
-    url = f"https://cise520lpi3.milwaukeecountywi.gov/ers/config/endpointgroup/name/{search_string}"
+    url = f"https://ISE-URL-GOES-HERE/ers/config/endpointgroup/name/{search_string}"
 
     headers = {
         "Content-Type": "application/json",
