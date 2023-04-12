@@ -76,7 +76,7 @@ def cityworks_idgr_addmacs():
     # Retrieve the endpoint group ID.
     endgroup_id = find_endgr_id.find_endgr_id(
         ise_api_creds=ise_api_creds,
-        search_string="id_gr_cityworks_ipads_secure_wireless_static_vlan_155",
+        search_string="my_search_string",
     )
 
     # Retrieve all hosts in the endpoint group.
