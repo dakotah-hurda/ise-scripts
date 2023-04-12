@@ -9,7 +9,7 @@ def retrieve_endgr_hosts(ise_api_creds: str, endgr_id: str):
     """
     hosts_list = []
 
-    url = "https://cise520lpi3.milwaukeecountywi.gov/ers/config/endpoint"
+    url = "https://ISE-URL-GOES-HERE/ers/config/endpoint"
 
     headers = {
         "Content-Type": "application/json",
