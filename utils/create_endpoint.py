@@ -8,7 +8,7 @@ def create_endpoint(ise_api_creds: str, endpoint_mac: str):
     This function takes the provided MAC address and creates a new static endpoint on ISE.
     """
 
-    url = f"https://cise520lpi3.milwaukeecountywi.gov/ers/config/endpoint"
+    url = f"https://ISE-URL-GOES-HERE/ers/config/endpoint"
 
     headers = {
         "Content-Type": "application/json",
